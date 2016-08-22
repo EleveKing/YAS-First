@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <title>YAS</title>
+        
+        <meta name="description" content="">
+        <meta name="author" content="Andy Wang">
+        <meta name="keywords" content=""/>
+        
+        <!--links-->
+        
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="shortcut icon" href="favicon.ico">
+        
+        <script src="http://maps.googleapis.com/maps/api/js"></script>
+
+        <script>
+            var myCenter=new google.maps.LatLng(49.27954,-122.92874);
+            function initialize()
+            {
+            var mapProp = {
+              center:myCenter,
+              zoom:13,
+              mapTypeId:google.maps.MapTypeId.ROADMAP
+              };
+            var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+            var marker=new google.maps.Marker({
+              position:myCenter,
+              });
+            marker.setMap(map);
+            }
+            google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+    </head>
+    
+    <body id="page-top" data-spy="scroll" data-target=".navbar">
+        <div class="hero">
+            <div class="row">
+                <div class="herocenter">
+                    <li><div class=""><h2 class="heroh2">January 9TH | SFU Burnaby Campus</h2></div></li>
+                    <li><div class=""><h1 class="heroh1">YAS 2017</h1></div></li>
+                    <li><div class=""><h2 class="heroh2">Youth Acheiving Success Conference</h2></div></li>
+                    <a>Registration</a>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="navbar navbar-light" role="navigation" id="header" style="background-color:rgb(255,178,55)">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <a href="#page-top" class="navbar-brand page-scroll">YAS Conference</a>
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mydropdown">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse navbar-right" id="mydropdown">
+                    <ul class="nav navbar-nav" style="color:white;">
+                        <li><a class="page-scroll" href="#speakers">Speakers</a></li>
+                        <li><a class="page-scroll" href="#goal">Our Goal</a></li>
+                        <li><a class="page-scroll" href="#faq">FAQ</a></li>
+                        <li><a class="page-scroll" href="#team">Our Team</a></li>
+                        <li><a class="page-scroll" href="#find">Find Us</a></li>
+                        <li><a class="page-scroll" href="#reg">Register</a></li>
+                        <li><a class="page-scroll" href="#spons">Sponsors</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="newsinfo" >
+            <div class="row">
+                <div class="newsinfocenter">
+                    <h1 class="newsh1">News</h1>
+                    <p class="newsp">Ambassadors Applications Closing Soon!</p>
+                    <a class="newsa" href="#">Apply Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="speakers" id="speakers">
+            <div class="row alignc">
+                <h1 class="speakerh1t">Meet our Speakers</h1>
+            </div>
+            <div class="row">
+                <div class="container">
+                    <hr>
+                    <div class="col-md-3">
+                        <img src="img/boy.jpg" class="speakerimg1"/>
+                        <h1 class="speakerh1">Profession</h1>
+                        <p class="speakerp">Name/Title</p>
+                        <a class="speaker btn1">Link to bio</a>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/girl.jpg" class="speakerimg1"/>
+                        <h1 class="speakerh1">Profession</h1>
+                        <p class="speakerp">Name/Title</p>
+                        <a class="speaker btn1">Link to bio</a>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/boy.jpg" class="speakerimg1"/>
+                        <h1 class="speakerh1">Profession</h1>
+                        <p class="speakerp">Name/Title</p>
+                        <a class="speaker btn1">Link to bio</a>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/girl.jpg" class="speakerimg1"/>
+                        <h1 class="speakerh1">Profession</h1>
+                        <p class="speakerp">Name/Title</p>
+                        <a class="speaker btn1">Link to bio</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container">
+                    <div class="col-md-3">
+                        <img src="img/boy.jpg" class="speakerimg1"/>
+                        <h1 class="speakerh1">Profession</h1>
+                        <p class="speakerp">Name/Title</p>
+                        <a class="speaker btn1">Link to bio</a>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/girl.jpg" class="speakerimg1"/>
+                        <h1 class="speakerh1">Profession</h1>
+                        <p class="speakerp">Name/Title</p>
+                        <a class="speaker btn1">Link to bio</a>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/boy.jpg" class="speakerimg1"/>
+                        <h1 class="speakerh1">Profession</h1>
+                        <p class="speakerp">Name/Title</p>
+                        <a class="speaker btn1">Link to bio</a>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/girl.jpg" class="speakerimg1"/>
+                        <h1 class="speakerh1">Profession</h1>
+                        <p class="speakerp">Name/Title</p>
+                        <a class="speaker btn1">Link to bio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="things" id="goal">
+            <div class="row">
+                <div class="container">
+                    <div class="col-md-3 thingsCard">
+                        <div class="">
+                            <i class="fa fa-briefcase thingsI-1" aria-hidden="true"></i>
+                        </div>
+                        <h2 class="twhite">Expand Your Network</h2>
+                        <p class="twhite">True learning can only occur when you are able to express your curiosity. The emphasis on developing personal connections with each and every speaker is what makes YAS a riveting experience for all attendees.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="">
+                            <i class="fa fa-heart thingsI-2" aria-hidden="true"></i>
+                        </div>
+                        <h2 class="twhite">Discover Your Passion</h2>
+                        <p class="twhite">YAS understands that becoming a doctor is not for everyone. With an incredible range of career focuses, you are bound to take a deep interest the job industries presented to you.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="">
+                            <i class="fa fa-globe thingsI-3" aria-hidden="true"></i>
+                        </div>
+                        <h2 class="twhite">Learn Through Experiance</h2>
+                        <p class="twhite">Reading about a Lawyer's day-to-day life is not sufficient in our time. YAS offers incredible speakers who have the potential to make you rethink jobs in new dimensions.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="">
+                            <i class="fa fa-compass thingsI-4" aria-hidden="true"></i>
+                        </div>
+                        <h2 class="twhite">Realize Your Dream</h2>
+                        <p class="twhite">As part of a promise to ensure success in your future, YAS is diversifying efforts to do exactly that. The conference helps put you in contact with top jobs in the industry, and provides one deserving attendee with a YAS Scholarship.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="FAQ" id="faq">
+            <div class="row">
+                <div class="container">
+                    <div class="col-md-6 colWinner">
+                        <h1>YAS 2017 Scholarship Winner</h1>
+                        <i class="fa fa-trophy faqi" aria-hidden="true"></i>
+                        <h1>TBA</h1>
+                    </div>
+                    <div class="col-md-6 colFAQ alignc">
+                        <div class="colFAQtab alignl">
+                            <div class="card">
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">What is..</a></li>
+                                        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">What Happens at..</a></li>
+                                        <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">How Much Is..</a></li>
+                                        <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Who will..</a></li>
+                                    </ul>
+
+                                    <!-- Tab panes -->
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="home">
+                                            <h1 class="FAQtabh1">What is Youth Achieving Success?</h1><p>Youth Achieving Success (YAS) is a student-run non-profit organization dedicated to assisting students on the path to post-secondary education. YAS strives to prepare students by providing financial aid and knowledge on sought-after industries through an annual career conference to educate students on the variety of career options available to them.</p>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="profile"><h1 class="FAQtabh2">What happens at the YAS Conference</h1><p>The YAS Career Conference is a one-day event that brings seven different industry professionals to one location. High school and university students have a chance to attend all seven workshops in addition to an opening speech conducted by an esteemed keynote speaker. Students get a chance to learn from and speak with unique professionals from different career fields while networking with other like-minded youth. All YAS Career Conference attendees have a chance to apply for the YAS Scholarship which will be awarded after the conference.
+
+</p></div>
+                                        <div role="tabpanel" class="tab-pane" id="messages"><h1 class="FAQtabh3">How much is the fee to attend YAS</h1><p>Since YAS will be held at a prime location and will be offering one deserving student a scholarship, the conference will require a very low fee of $20 from its attendees to cover venue costs and other expenses.</p></div>
+                                        <div role="tabpanel" class="tab-pane" id="settings"><h1 class="FAQtabh4">Who will be speaking there?</h1><p>Our executives have strived to have professionals from a variety of sought-after careers to attend the event. The seven fields at YAS 2015 are Web Development, Finance, Social Entrepreneurship, Law, Marketing, Medicine, and Policing.</p></div>
+                                    </div>
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="ourt" id="team">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 alignc teamy">
+                            <h1>Meet Our Team</h1>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                      <div class="panel panel-default">
+                        <div class="panel-heading panel-heading1 alignc" role="tab" id="headingOne">
+                          <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="collapsed twhite">
+                              Board of Directors
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                          <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-offset-3 col-md-3">  
+                                    <img src="img/boy.jpg" class="panimgstaff"/>
+                                </div>
+                                <div class="col-md-3">  
+                                    <img src="img/girl.jpg" class="panimgstaff"/>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading panel-heading2 alignc" role="tab" id="headingTwo">
+                          <h4 class="panel-title">
+                            <a class="collapsed twhite" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Executive Team
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                          <div class="panel-body">
+                              <div class="row">
+                              <div class="col-md-3 alignc">  
+                                    <img src="img/girl.jpg" class="panimgstaff"/>
+                                    <a href="#" class="panel-staffa">Charles Noah Balcita</a>
+                                    <p class="panel-staffp">Chair</p>
+                                </div>
+                                  <div class="col-md-3">  
+                                    <img src="img/girl.jpg" class="panimgstaff"/>
+                                </div>
+                                  <div class="col-md-3">  
+                                    <img src="img/girl.jpg" class="panimgstaff"/>
+                                </div>
+                                  <div class="col-md-3">  
+                                    <img src="img/girl.jpg" class="panimgstaff"/>
+                                </div>
+                              </div>
+                              <div class="row">
+                              <div class="col-md-3 alignc">  
+                                    <img src="img/girl.jpg" class="panimgstaff"/>
+                                  <a href="#" class="panel-staffa">Charles Noah Balcita</a>
+                                    <p class="panel-staffp">Chair</p>
+                                </div>
+                              <div class="col-md-3">  
+                                    <img src="img/girl.jpg" class="panimgstaff"/>
+                                </div>
+                                  <div class="col-md-3">  
+                                    <img src="img/girl.jpg" class="panimgstaff"/>
+                                </div>
+                                  <div class="col-md-3">  
+                                    <img src="img/girl.jpg" class="panimgstaff"/>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                        <div class="panel panel-default">
+                        <div class="panel-heading panel-heading3 alignc" role="tab" id="headingThree">
+                          <h4 class="panel-title">
+                            <a class="collapsed twhite" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Ambassadors
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                          <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-1">  
+                                    <img src="img/girl.jpg" class="panimgstaff"/>
+                                </div>
+                                <div class="col-md-1">  
+                                    <img src="img/girl.jpg" class="panimgstaff"/>
+                                </div>
+                                <div class="col-md-1">  
+                                    <img src="img/girl.jpg" class="panimgstaff"/>
+                                </div>
+                                <div class="col-md-1">  
+                                    <img src="img/girl.jpg" class="panimgstaff"/>
+                                </div>
+                                <div class="col-md-1">  
+                                    <img src="img/girl.jpg" class="panimgstaff"/>
+                                </div>
+                                <div class="col-md-1">  
+                                    <img src="img/girl.jpg" class="panimgstaff"/>
+                                </div>
+                                <div class="col-md-1">  
+                                    <img src="img/girl.jpg" class="panimgstaff"/>
+                                </div>
+                                <div class="col-md-1">  
+                                    <img src="img/girl.jpg" class="panimgstaff"/>
+                                </div>
+                                <div class="col-md-1">  
+                                    <img src="img/girl.jpg" class="panimgstaff"/>
+                                </div>
+                                <div class="col-md-1">  
+                                    <img src="img/girl.jpg" class="panimgstaff"/>
+                                </div>
+                                <div class="col-md-1">  
+                                    <img src="img/girl.jpg" class="panimgstaff"/>
+                                </div>
+                                <div class="col-md-1">  
+                                    <img src="img/girl.jpg" class="panimgstaff"/>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="findus" id="find">
+            <div class="row">
+                <div class="col-md-6 find-pd">
+                    <div id="googleMap" style="width:100%; height:50vh;"></div>
+                </div>
+                <div class="col-md-6 Infofindus">
+                    Info
+                </div>
+            </div>
+        </div>
+        <div class="register" id="reg">
+            <div class="row">
+                <div class="container">
+                    <h2 class="regh2">Registration Opens September 1st</h2>
+                    <p class="regp">Please check back when Registration Opens</p>
+                    <a class="registerbtn"href="#">Register</a>
+                </div>
+            </div>
+        </div>
+        <div class="sponsers well" id="spons">
+            <div class="row">
+                <div class="container">
+                    <div class="row sponsrow">
+                        <div class="col-md-2 alignc">
+                            <img src="img/mc.png" class="sponsimg"/>
+                            <h2>SponserTitle</h2>
+                        </div>
+                        <div class="col-md-2 alignc">
+                            <img src="img/mc.png" class="sponsimg"/>
+                            <h2>SponserTitle</h2>
+                        </div>
+                        <div class="col-md-2 alignc">
+                            <img src="img/mc.png" class="sponsimg"/>
+                            <h2>SponserTitle</h2>
+                        </div>
+                        <div class="col-md-2 alignc">
+                            <img src="img/mc.png" class="sponsimg"/>
+                            <h2>SponserTitle</h2>
+                        </div>
+                        <div class="col-md-2 alignc">
+                            <img src="img/mc.png" class="sponsimg"/>
+                            <h2>SponserTitle</h2>
+                        </div>
+                        <div class="col-md-2 alignc">
+                            <img src="img/mc.png" class="sponsimg"/>
+                            <h2>SponserTitle</h2>
+                        </div>
+                    </div>
+                    <div class="row sponsbtnr">
+                        <a href="#" class="sponsbtn">Become A Sponsor</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="row">
+                <div class="container">
+                    <div class="footlogo col-md-1 alignc">
+                        <img src="img/logo1.png" class="footlogoimg"/>
+                    </div>
+                    <div class="footcopy col-md-10">
+                        &copy YASConference 2017 
+                    </div>
+                    <div class="footsm col-md-1 alignc">
+                        <i class="fa fa-facebook-official"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/parallax.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/scrolling-nav.js"></script>
+        <script type="text/javascript">
+            var scene = document.getElementById('scene');
+            var parallax = new Parallax(scene);
+        </script>
+        <script type="text/javascript" src="js/jquery.sticky.js"></script>
+        <script type="text/javascript">
+        $(window).load(function(){
+          $("#header").sticky({ topSpacing: 0 });
+        });
+        </script>
+    </body>
+</html>         
